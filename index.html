@@ -3,6 +3,7 @@
 
 <head>
     <title>My Webpage</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 </head>
 
 <body>
@@ -10,15 +11,6 @@
         div.alpha {
             text-align: center;
             font-size: 50px;
-        }
-
-        li {
-            display: block;
-            float: left;
-            width: 300px;
-            height: 150px;
-            padding: 100px;
-            align-self: center
         }
     </style>
     <div class="alpha">
@@ -34,21 +26,29 @@
     <p>
         LALALALA.
     </p>
-    <img src="aboutme.jpg" align="center" width="50%" height="300px">
+    <p style="text-align:center;">
+        <img src="aboutme.jpg" alt=" " width="50%">
+    </p>
     <p>Find out more:</p>
-    <ol>
+    <ul>
         <li>
-            Click here to find more about stuff that I do:
-            <a href="Hobbies.html">Hobbies</a>
+            <div class="alert alert-info" role="alert">
+                Chess:
+                <a href="chess.html" class="alert-link">Click Me!</a>
+            </div>
         </li>
         <li>
-            Click here to find more about my favourite pastime:
-            <a href="Olympic Weightlifting.html">Olympic Weightlifting</a>
+            <div class="alert alert-info" role="alert">
+                My Weightlifting journey:
+                <a href="#" class="alert-link"></a>
+            </div>
         </li>
         <li>
-            Click here if you want to chat with me:
-            <a href="Social Media.html">My Social Accounts</li>
-    </ol>
+            <div class="alert alert-info" role="alert">
+                My contacts:
+                <a href="#" class="alert-link"></a>
+            </div>
+    </ul>
 </body>
 
 </html>
